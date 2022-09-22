@@ -13,9 +13,9 @@ public class Main {
         list.add(new Person("Иван", "Николаев ", 30));
         list.add(new Person("Николай", "Петров сын Иосифа", 30));
         list.add(new Person("Петр", "Максимов", 50));
-        list.add(new Person("Максим", "Алексеевич, рожденный под счастливой звездой", 61));
+        list.add(new Person("Максим", "Алексеевич, рожденный под счастливой звездой", 11));
 
-        ComparatorForPeople comp = new ComparatorForPeople();
+        ComparatorForPeople comp = new ComparatorForPeople(2);
 
         System.out.println("Оригинальный список: " + list);
 
